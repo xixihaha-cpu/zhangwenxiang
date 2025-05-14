@@ -13,65 +13,6 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#165DFF',
-                        secondary: '#4080FF',
-                        accent: '#FF7D00',
-                        neutral: '#F5F7FA',
-                    },
-                    fontFamily: {
-                        inter: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                }
-            }
-        }
-    </script>
-    
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .content-auto {
-                content-visibility: auto;
-            }
-            .card-shadow {
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            }
-            .card-hover {
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
-            .card-hover:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 10px 25px rgba(22, 93, 255, 0.15);
-            }
-            .wechat-container {
-                max-width: 750px;
-                margin: 0 auto;
-            }
-        }
-    </style>
-</head>
-<body class="bg-gray-50 font-inter">
-    <!-- 顶部Banner -->
-    <div class="wechat-container">
-        <img src="https://s21.ax1x.com/2025/05/12/pEXBArd.jpg" 
-             alt="小学期中提升课" 
-             class="w-full h-auto object-cover rounded-t-lg">
-    </div>
-
-    <!-- 主要内容区域 -->
-  <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作业帮专属福利</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    <!-- 配置Tailwind自定义主题 -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
                         primary: '#FF7D00', // 作业帮橙色主色调
                         secondary: '#FFB300',
                         neutral: '#F5F7FA',
@@ -122,7 +63,13 @@
     </style>
 </head>
 <body class="bg-gray-50 font-inter">
-  
+    <!-- 顶部Banner -->
+    <div class="wechat-container">
+        <img src="https://s21.ax1x.com/2025/05/12/pEXBArd.jpg" 
+             alt="小学期中提升课" 
+             class="w-full h-auto object-cover rounded-t-lg">
+    </div>
+
     <!-- 主要内容区域 -->
     <div class="wechat-container bg-white rounded-b-lg shadow-md pb-6 relative">
         <!-- 福利徽章 -->
@@ -144,7 +91,7 @@
                 </h2>
                 <div class="qr-code hidden mt-4 text-center">
                     <p class="text-gray-600 mb-3">扫描下方二维码获取</p>
-                   <img src="https://github.com/xixihaha-cpu/erweima/blob/main/111.jpg?raw=true" alt="小学资料二维码" class="w-48 h-48 mx-auto rounded-lg border border-gray-200">
+                    <img src="微信图片_20250512112025.png" alt="小学资料二维码" class="w-48 h-48 mx-auto rounded-lg border border-gray-200">
                     <p class="text-sm text-gray-500 mt-2">长按识别二维码，添加获取</p>
                 </div>
             </div>
@@ -155,8 +102,7 @@
                 </h2>
                 <div class="qr-code hidden mt-4 text-center">
                     <p class="text-gray-600 mb-3">扫描下方二维码获取</p>
-                    <div class="微信图片_20250512112025-container">
-                    <img src="微信图片_20250512112025.png">
+                    <img src="微信图片_20250512112025.png" alt="中学资料二维码" class="w-48 h-48 mx-auto rounded-lg border border-gray-200">
                     <p class="text-sm text-gray-500 mt-2">长按识别二维码，添加获取</p>
                 </div>
             </div>
